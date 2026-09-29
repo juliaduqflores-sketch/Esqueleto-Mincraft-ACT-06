@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #1a1a1a;
+    font-family: sans-serif;
+}
+
+/* Header */
+#inicio {
+    background-color: #1e1e1e;
+    padding: 40px 20px;
+}
+
+/* Contenedor del Personaje no borrar xd */
+.contenedor {
+    text-align: center;
+    padding: 50px 20px;
+    display: block;
+}
+
+/* ----- FIGURA: ESQUELETO MINECRAFT XD ----- */
+.personaje-esqueleto {
+    position: relative;
+    width: 200px;
+    height: 380px;
+    margin: 0 auto;
+}
+
+/* Cabeza */
+.cabeza {
+    width: 100px;
+    height: 100px;
+    background-color: #c2c2c2;
+    border: 4px solid #8e8e8e;
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.ojo-izq, .ojo-der {
+    width: 24px;
+    height: 18px;
+    background-color: #111111;
+    position: absolute;
+    top: 35px;
+}
+
+.ojo-izq { left: 12px; }
+.ojo-der { right: 12px; }
+
+.boca {
+    width: 60px;
+    height: 12px;
+    background-color: #111111;
+    position: absolute;
+    bottom: 12px;
+    left: 16px;
+}
+
+/* Cuello */
+.cuello {
+    width: 30px;
+    height: 12px;
+    background-color: #999999;
+    position: absolute;
+    top: 100px;
+    left: 85px;
+}
+
+/* Torso */
+.torso {
+    width: 70px;
+    height: 90px;
+    background-color: transparent;
+    border: 3px solid #8e8e8e;
+    position: absolute;
+    top: 112px;
+    left: 65px;
+}
+
+.columna {
+    width: 16px;
+    height: 100%;
+    background-color: #999999;
+    margin: 0 auto;
+}
+
+.costilla {
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    background-color: #b0b0b0;
+    border-bottom: 2px solid #777;
+}
+
+.costilla.top { top: 15px; }
+.costilla.mid { top: 45px; }
+
+/* Brazos */
+.brazo-izq, .brazo-der {
+    width: 20px;
+    height: 110px;
+    background-color: #b0b0b0;
+    border: 2px solid #777;
+    position: absolute;
+    top: 112px;
+}
+
+.brazo-izq { left: 40px; }
+.brazo-der { right: 40px; }
+
+/* Cadera */
+.cadera {
+    width: 80px;
+    height: 20px;
+    background-color: #999999;
+    border: 2px solid #666;
+    position: absolute;
+    top: 202px;
+    left: 60px;
+}
+
+/* Piernas */
+.piernas-container {
+    position: absolute;
+    top: 222px;
+    left: 68px;
+    width: 64px;
+    display: flex;
+}
+
+.pierna-izq, .pierna-der {
+    width: 22px;
+    height: 130px;
+    background-color: #b0b0b0;
+    border: 2px solid #777;
+}
+
+.pierna-izq {
+    margin-right: 20px;
+}
